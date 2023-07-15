@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.signup-page{
+  width: 100%;
+  height: 100vh;
+  background-color: #B1D9DB;
+  display: flex;
+}
+.left-side{
+  position: relative;
+  width: 40%;
+  height: inherit;
+  /* border: 1px solid red; */
+}
+.form-container{
+  width: 60%;
+  height: inherit;
+  float: right;
+  background-color: white;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  outline: none;
+}
+.form-div{
+  width: 50%;
+  margin: 100px auto;
+}
+.form-div h1{
+  margin-block: 30px;
+}
+.form-div form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-div input{
+  display: block;
+  width: 100%;
+  padding-block: 10px;
+  margin-block: 15px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-bottom: #dfdfdf 1px solid;
+}
+::placeholder{
+  opacity: 50%;
+}
+.social-app-link{
+  display: flex;
+  margin-block: 20px;
+}
+.google-link{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border: #dfdfdf solid 1px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.google-link span{
+  padding-inline: 5px;
+}
+.facebook-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  padding: 10px;
+  border: #dfdfdf solid 1px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.facebook-link span{
+  padding-inline: 5px;
+}
+#or{
+  text-align: center;
+  font-size: 24px;
+  margin: 30px 0px 10px;
+  color: #909090;
+  opacity: 80%;
+}
+#submit-btn{
+  width: 90%;
+  font-size: 16px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  outline: none;
+  background-color: #7CD2D7;
+  color: white;
+  font-weight: bold;
+  border-radius: 7px;
+}
+.left-side .title-text{
+  margin-top: 110px;
+  margin-left: 50px;
+  font-size: 35px;
+  color: white;
+}
+
+.image-div{
+  width: 100%;
+  position: absolute;
+  top: 180px;
+  left: 80px;
+  object-fit: cover;
+  
+}
+.image-div img{
+  width: 620px;
+  object-fit: fill;
+  z-index: 10;
+}
