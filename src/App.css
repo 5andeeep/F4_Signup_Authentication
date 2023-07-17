@@ -55,29 +55,39 @@
   margin-block: 20px;
 }
 .google-link{
+  width: 50%;
   display: flex;
-  padding: 10px;
+  padding: 5px;
   justify-content: center;
   align-items: center;
   border: #dfdfdf solid 1px;
   border-radius: 5px;
   font-size: 14px;
+  user-select: none;
+  cursor: pointer;
 }
 .google-link span{
-  padding-inline: 5px;
+  margin-top: 6px;
+  margin-right: 10px;
+  justify-self: center;
+  align-self: center;
 }
 .facebook-link{
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 20px;
-  padding: 10px;
+  padding: 5px;
   border: #dfdfdf solid 1px;
   border-radius: 5px;
   font-size: 14px;
+  user-select: none;
+  cursor: pointer;
 }
 .facebook-link span{
-  padding-inline: 5px;
+  margin-top: 6px;
+  margin-right: 10px;
 }
 #or{
   text-align: center;

@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 import image from '../image/Abstraction.png'
+import flogo from '../image/facebook 1.png'
+import { FaGoogle } from "react-icons/fa";
 
 
 const Signup = () => {
@@ -50,12 +52,12 @@ const Signup = () => {
                     <h1>Create Account</h1>
                     <div className="social-app-link">
                         <span className="google-link">
-                            <span>logo</span>
+                            <span><FaGoogle/></span>
                             <p>Sign up with Google</p>
                         </span>
                         <span className="facebook-link">
-                            <span>logo</span>
-                            <p>Sign up with Google</p>
+                            <span><img src={flogo} alt="img" /></span>
+                            <p>Sign up with Facebook</p>
                         </span>
                     </div>
                     <p id='or'>- OR -</p>
